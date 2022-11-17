@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin-top: 15vh;
+    background-color: white;
+}
+
+.leftcont{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    border-right: 2px solid rgb(122, 122, 122, 0.5);
+}
+
+.leftcont img{
+    margin-bottom: 10vh;
+    width: 30vh;
+    border-radius: 25px;
+}
+
+.rightcont{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    height: 70vh;
+
+}
+
+.desc{
+    flex:1;
+    overflow-y: scroll;
+    scrollbar-width: 4px;
+}
+
+.desc h2{
+    text-align: center;
+}
+
+.actions{
+    flex: 1;
+    border-top: 2px solid rgb(122, 122, 122, 0.5);
+}
